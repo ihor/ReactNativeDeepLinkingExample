@@ -15,4 +15,4 @@ const scenes = Actions.create(
 
 crossroads.addRoute('greetings/{name}', name => Actions.greeting({ name }));
 
-export default <LinkedRouter scenes={scenes} scheme="sampleapp"/>;
+export default <LinkedRouter scenes={scenes} scheme="exampleapp"/>;
